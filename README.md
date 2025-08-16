@@ -9,7 +9,6 @@ Working with Images in Next.js
 Server vs Client Components
 Dynamic Routes & Loading States
 API Routes, Metadata & SEO
-
 ```
 
 ## Getting Started
