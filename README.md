@@ -1,14 +1,14 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ```bash
-Introduction & Why Next.js
-NextJS Setup
-Understanding the File Structure
-Creating Routes & Navigation
-Working with Images in Next.js
-Server vs Client Components
-Dynamic Routes & Loading States
-API Routes, Metadata & SEO
+- Introduction & Why Next.js
+- NextJS Setup
+- Understanding the File Structure
+- Creating Routes & Navigation
+- Working with Images in Next.js
+- Server vs Client Components
+- Dynamic Routes & Loading States
+- API Routes, Metadata & SEO
 ```
 
 ## Getting Started
