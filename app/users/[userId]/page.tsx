@@ -34,13 +34,13 @@ export default async function UserPath({
         </p>
         <div className="grid grid-rows-[20px_1fr_20px] gap-2">
           <p className="text-sm text-gray-600">
-            ID: <span className="text-gray-300">{user.id}</span>{" "}
+            ID: <span className="text-gray-300">{user.id}</span>
           </p>
           <p className="text-sm text-gray-600">
-            Username: <span className="text-gray-300">{user.username}</span>{" "}
+            Username: <span className="text-gray-300">{user.username}</span>
           </p>
           <p className="text-sm text-gray-600">
-            Email: <span className="text-gray-300">{user.email}</span>{" "}
+            Email: <span className="text-gray-300">{user.email}</span>
           </p>
           <p className="text-sm text-gray-600">
             Phone: <span className="text-gray-300">{user.phone}</span>{" "}
