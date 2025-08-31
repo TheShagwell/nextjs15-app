@@ -43,10 +43,10 @@ export default async function UserPath({
             Email: <span className="text-gray-300">{user.email}</span>
           </p>
           <p className="text-sm text-gray-600">
-            Phone: <span className="text-gray-300">{user.phone}</span>{" "}
+            Phone: <span className="text-gray-300">{user.phone}</span>
           </p>
           <p className="text-sm text-gray-600">
-            Website: <span className="text-gray-300">{user.website}</span>{" "}
+            Website: <span className="text-gray-300">{user.website}</span>
           </p>
           <p className="text-sm text-gray-600">
             Company: <span className="text-gray-300">{user.company.name}</span>{" "}
