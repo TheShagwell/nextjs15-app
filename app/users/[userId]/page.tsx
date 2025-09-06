@@ -24,16 +24,14 @@ export default async function UserPath({
   if (!user) {
     notFound();
   }
-
   return (
+
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1 className="text-2xl font-bold">User {user.name}</h1>
+        <h1 className="text-2xl font-bold">{user.name}</h1>
         <p className="text-sm text-gray-600">
-          This is the users page. You can manage your application users here.
+          This is the user page for {user.name}. You can manage your application user here.
         </p>
-
-        <h1>{user.name}</h1>
         <div className="grid grid-rows-[20px_1fr_20px] gap-2">
           <p className="text-sm text-gray-600">
             ID: <span className="text-gray-300">{user.id}</span>{" "}

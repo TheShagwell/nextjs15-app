@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export default async function Users() {
+
   const response = await fetch("https://jsonplaceholder.typicode.com/users");
   const users = await response.json();
 
@@ -15,7 +16,9 @@ export default async function Users() {
         <ul>
           {users.map((user: { id: number; name: string; email: string }) => (
             <li key={user.id} className="text-sm text-gray-600">
-              {user.name} - {user.email}
+              <Link href={`/users/${user.id}`} className="hover:underline">
+                {user.name} - {user.email}
+              </Link>
             </li>
           ))}
         </ul>
