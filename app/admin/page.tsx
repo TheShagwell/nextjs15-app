@@ -12,7 +12,7 @@ export default function Admin() {
         <p className="text-sm text-gray-600">
           This is the admin page. You can manage your application here.
         </p>
-        <span>Manage Settings</span>
+        <Link href="/settings">Manage Settings</Link>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <Link
