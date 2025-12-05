@@ -34,7 +34,7 @@ export default function RootLayout({
           <Link href={"/dashboard"}>Dashboard</Link>
           <Link href={"/users"}>Users</Link>
           <Link href={"/settings"}>Settings</Link>
-          <Link href={"/Logout"}>Logout</Link>
+          <Link href={"/logout"}>Logout</Link>
         </div>
         {children}
       </body>
